@@ -1,0 +1,11 @@
+# ignore binary files
+*.[oa]
+*.out
+# ignore data, xmgrace-parameter, log, errorfiles and textfiles
+*.par
+*.log
+*.err
+*.temp
+*.sub
+*.swp
+*.pyc
