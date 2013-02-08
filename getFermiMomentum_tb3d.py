@@ -19,7 +19,7 @@ def main():
 	n=args.filling
 
 
-	# integrand for dos
+	# integrand for dos (analytical formula with Besselfunction)
 	def integrand(x, w, eta, t):
 		return 2*scipy.imag(complex(0,1)*scipy.exp(complex(0,1)*x*complex(w, eta))*pow(special.jv(0,2*t*x), 3))/math.pi
 
